@@ -5,16 +5,16 @@ layout: default
 <!-- Wrapper -->
 <div id="wrapper">
   <!-- Header -->
-  <header id="header">
+  <!-- <header id="header">
     <h1>
       <a href="index.html"
         ><strong>{{ site.header.title }}</strong> {{ site.header.subtitle }}</a
       >
     </h1>
-  </header>
+  </header> -->
 
   <!-- Main -->
-  <div id="main" data-exif="{{ site.exif }}">
+  <div id="main" data-exif='{{ site.exif }}'>
     {% for image in site.static_files %} {% if image.path contains 'fulls' %}
     <article class="thumb">
       <a
