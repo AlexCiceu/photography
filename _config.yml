@@ -1,11 +1,16 @@
 # Base configs
-baseurl: "https://alexciceu.github.io/photography"
+baseurl: "https://photo.alexciceu.com"
 # baseurl: "" # Comment the above line and uncomment this to test the website locally
 image_fulls_loc: "/images/fulls"
 image_thumbs_loc: "/images/thumbs"
+google_analytics: "UA-46465113-2"
 
 # UI configs
 title: "Photography by Alex Ciceu"
+author: "Alex Ciceu"
+header:
+  title: "Photography"
+  subtitle: "by Alex Ciceu"
 
 # Configure which exif data to display
 # Tag is the actual exif tag, icon is a fontawesome icon. Use JSON notation without line breaks
